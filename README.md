@@ -1,1 +1,1 @@
-# revisitation-js
+# Revisitation JavaScript (Formation Konexio)
