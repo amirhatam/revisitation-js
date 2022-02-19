@@ -9,6 +9,6 @@ let revSentence = []
 
 for (let i = 0; i < sentence.length; i++) {
     revSentence.unshift(sentence[i])
-    // console.log(sentence[i]);
+
 }
 console.log(revSentence.join(""));
