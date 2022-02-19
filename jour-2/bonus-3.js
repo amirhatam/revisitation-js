@@ -7,3 +7,5 @@ les valuers `3.3`, `3.8` et `12.4` et vérifier que ça marche bien dans tous le
 - Une fois fini, rajoutez un autre algorithme pour obtenir le même resultat 
 mais en convertissant `roundedNumber` en string et en utilissant `substring`.
 */
+
+const roundedNumber = 3.6
