@@ -39,4 +39,3 @@ if (strDecimal > 0.5) {
     strResult = Math.floor(roundedNumber);
 }
 console.log(strResult);
-
