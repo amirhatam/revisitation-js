@@ -12,5 +12,15 @@ function checkIfEven(num) {
     }
 }
 
+//Arrow function
+const checkIfEven = (num) => {
+    if (num % 2 == 0) {
+        console.log("even");
+    } else {
+        console.log("odd");
+    }
+}
+
+
 
 checkIfEven(100)
