@@ -11,7 +11,35 @@ const format = (num) => {
     let minutes = Math.floor(restH / 60)
     let secondes = restH - minutes * 60
 
-    console.log(`${hours} : ${minutes} : ${seconds}`);
+    console.log(`${heures} : ${minutes} : ${secondes}`);
 }
 
 format(3700)
+
+//Version Without Math 
+
+const formatFunc = (num) => {
+    let jours = 0
+    let heures = 0
+    let minutes = 0
+    let secondes = 0
+
+    for (let i = 0; i < num; i++) {
+        secondes++
+        if (secondes === 60) {
+            minutes++
+            secondes = 0
+        }
+        if (minutes === 60) {
+            heures++
+            minutes = 0
+        }
+        if (heures === 24) {
+            jours++
+            heures = 0
+        }
+    }
+    console.log(`${jours} :${heures} : ${minutes} : ${secondes}`);
+}
+
+formatFunc(3700)
