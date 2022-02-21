@@ -4,11 +4,14 @@
 - Appelez votre fonction avec l'argument `3700` et vérifiez que vous obtenez `1:1:40`
 */
 
+//Math version
 const format = (num) => {
-    let heures = num / 60
-    let secondes = 0
-    let minutes = 0
+    let heures = Math.floor(num / 3600);
+    let restH = num - heures * 3600
+    let minutes = Math.floor(restH / 60)
+    let secondes = restH - minutes * 60
 
-    console.log(heures);
+    console.log(`${hours} : ${minutes} : ${seconds}`);
 }
-format(180)
+
+format(3700)
