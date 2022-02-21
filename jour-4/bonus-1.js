@@ -24,6 +24,6 @@ const generatePassword = (num) => {
     return randomPass.join("")
 }
 
-let result = generatePassword(8)
+let result = generatePassword(15)
 
 console.log(result);
