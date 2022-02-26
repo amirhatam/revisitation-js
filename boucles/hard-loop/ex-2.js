@@ -21,4 +21,5 @@ for (let j = 0; j < numbers.length; j++) {
         max = numbers[j]
     }
 }
+
 console.log(max);
