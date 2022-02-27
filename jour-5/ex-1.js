@@ -12,7 +12,7 @@ attention aux paramètres !
     dans la console.
 */
 
-
+//One solution with array function & if
 const argv = process.argv
 let result = []
 let err = ""
@@ -44,7 +44,7 @@ const calculate = (num1, oper, num2) => {
     }
 
 }
-
+/*
 calculate(argv[2], argv[3], argv[4])
 
 if (err) {
@@ -53,5 +53,48 @@ if (err) {
     console.log(errOpper);
 } else {
     console.log(argv[2], argv[3], argv[4], "=", result);
+}
+*/
+
+//Seconde solution array function & switch (BEST practises)
+const operators = ["+", "-", "*", "/", "%"]
+
+const calculator = (num1, oper, num2) => {
+    switch (oper) {
+        case "+":
+            result = num1 + num2
+            break;
+        case "-":
+            result = num1 - num2
+            break;
+        case "*":
+            result = num1 * num2
+            break;
+        case "/":
+            result = num1 / num2
+            break;
+        case "%":
+            result = num1 % num2
+            break;
+        default:
+            break;
+    }
+}
+
+if (process.argv.length == 5) {
+    const firstNum = parseInt(process.argv[2])
+    const secondNum = parseInt(process.argv[4])
+    const operator = process.argv[3]
+
+    if (!operators.includes(operator)) {
+        console.log("Error, you must enter valid Operator !");
+    } else if (!firstNum || !secondNum) {
+        console.log("Error, you must enter number at first and at last !");
+    } else {
+        calculator(firstNum, operator, secondNum)
+        console.log(argv[2], argv[3], argv[4], "=", result);
+    }
+} else {
+    console.log("You must enter tree arguments(Number plus Operator plus Number) !")
 }
 
