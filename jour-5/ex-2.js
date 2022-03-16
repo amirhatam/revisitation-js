@@ -7,4 +7,13 @@ const multiply = n => {
     return num
 }
 
-console.log(multiply(5));
+// console.log(multiply(5));
+
+const multiple = n => {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${n} x  ${i} : ${n * i}`);
+    }
+}
+
+multiple(5)
+
