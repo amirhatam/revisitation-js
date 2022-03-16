@@ -50,6 +50,8 @@
 
 ## ⭐ Bonus
 
+[circleci-image]: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb7c4ff9f-892d-46cd-9546-4cb7735792f4%2Fdownload_(1).png?table=block&id=db6c6957-7f1f-4ee1-b95f-9963276bf19a&spaceId=65362e66-3041-4a6a-b7d0-0a9b18daad29&width=1060&userId=115135c6-5bc7-4787-8584-9c0c6d9b1390&cache=v2
+
 ### Vous vous souvenez de **Motus** ? Aujourd'hui on va le coder ! Petit rappel des règles :
 
 - Un mot mystère (ici de 5 lettres) est proposé, on ne connaît que la première lettre

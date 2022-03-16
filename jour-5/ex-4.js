@@ -3,7 +3,6 @@ const prompt = require("prompt");
 prompt.start()
 
 const mysteryNum = Math.ceil(Math.random() * 100)
-console.log(mysteryNum);
 
 const play = (n) => {
     prompt.get(
