@@ -56,7 +56,7 @@ if (err) {
 }
 */
 
-//Seconde solution array function & switch (BEST practises)
+//Seconde solution array function & switch (BEST practice)
 const operators = ["+", "-", "*", "/", "%"]
 
 const calculator = (num1, oper, num2) => {
