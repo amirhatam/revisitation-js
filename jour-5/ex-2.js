@@ -1,19 +1,14 @@
 //One solution
 const multiply = n => {
-    let num = []
-    for (let i = 1; i <= 10; i++) {
-        num.push(`${n} x  ${i} : ${n * i}`)
-    }
-    return num
+    if (n)
+        for (let i = 1; i <= 10; i++)
+            console.log(`${n} x  ${i} : ${n * i}`);
+    else
+        console.log("error");
 }
 
-// console.log(multiply(5));
 
-const multiple = n => {
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${n} x  ${i} : ${n * i}`);
-    }
-}
+multiply(process.argv[2]);
 
-multiple(5)
+
 
