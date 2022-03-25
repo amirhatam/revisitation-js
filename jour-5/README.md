@@ -51,7 +51,7 @@
 ## ⭐ Bonus
 
 <p align="center">
-  <img src="https://www.programme.tv/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ftls.2F2019.2F06.2F24.2F332b627f-b38e-4919-94f5-86007daef1d6.2Ejpeg/660x370/quality/80/un-candidat-de-motus-suggere-un-mot-plutot-tendancieux-qui-s-avere-etre-la-bonne-reponse-video.jpg" width="320" alt="Nest Logo" />
+  <img src="https://www.programme.tv/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ftls.2F2019.2F06.2F24.2F332b627f-b38e-4919-94f5-86007daef1d6.2Ejpeg/660x370/quality/80/un-candidat-de-motus-suggere-un-mot-plutot-tendancieux-qui-s-avere-etre-la-bonne-reponse-video.jpg" width="320" alt="Logo" />
 </p>
 
 ### Vous vous souvenez de **Motus** ? Aujourd'hui on va le coder ! Petit rappel des règles :
