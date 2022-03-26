@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/amirhatam/revisitation-js#readme",
   "dependencies": {
+    "moment": "^2.29.1",
     "prompt": "^1.2.2"
   }
 }
