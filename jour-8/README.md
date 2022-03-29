@@ -2,7 +2,7 @@
 
 ## 01 - Countries
 
-À l'aide de l'url suivante : "[https://restcountries.eu/rest/v2/all](https://restcountries.eu/rest/v2/all)" :
+À l'aide de l'url suivante : "[https://restcountries.com/v2/all](https://restcountries.com/v2/all)" :
 
 - Créez un array vide `countriesNames`
 - Créez une fonction asynchrone `getCountries` pour récupérer les pays et stocker leurs noms dans l'array
