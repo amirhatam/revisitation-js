@@ -7,7 +7,6 @@ const multiply = n => {
         console.log("error");
 }
 
-
 multiply(process.argv[2]);
 
 
